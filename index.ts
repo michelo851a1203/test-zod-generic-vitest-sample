@@ -17,6 +17,8 @@ export const createGenericValidator = <T extends zod.ZodTypeAny>(input: T) => {
   })
 }
 
+export type createGenericValidatorType = ReturnType<typeof createGenericValidator>;
+
 export const mainFunction = (inputValidateData: unknown) => {
   const mainValidator = createGenericValidator(userValidator)
   const { success } = mainValidator.safeParse(inputValidateData);
