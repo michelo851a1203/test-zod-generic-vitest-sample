@@ -1,0 +1,16 @@
+{
+  "name": "testc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vitest": "^0.28.4",
+    "zod": "^3.20.2"
+  }
+}
